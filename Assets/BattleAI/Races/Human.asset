@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c8ac34a462f600847aa4d155d0a7337d, type: 3}
+  m_Name: Human
+  m_EditorClassIdentifier: Assembly-CSharp::RaceDefinition
+  raceName: Human
+  HP: 200
+  ATK: 10
+  DEF: 20
+  SPD: 2
+  WIS: 10
+  INT: 10
+  Aggression: 0
+  Caution: 0
+  Memory: 0
+  biases:
+  - action: 0
+    weight: 0.5
+  - action: 2
+    weight: 0.2
+  - action: 3
+    weight: -0.1
